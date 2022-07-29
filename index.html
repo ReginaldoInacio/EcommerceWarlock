@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header/header-topo.css" />
+    <link rel="stylesheet" href="css/header/header-vitrine.css" />
+    <link rel="stylesheet" href="css/corpo/corpo-lista.css" />
+    <link rel="stylesheet" href="css/corpo/corpo-contato.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <title>Loja Warlock</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__topo">
+        <a href="index.html" class="header__topo__link">
+          <img
+            src="assets/header/Logo.png"
+            alt="logomarca do site"
+            class="header__topo__logo"
+        /></a>
+        <div class="header__topo__busca">
+          <form class="header__topo__busca__form">
+            <input
+              type="search"
+              id="query"
+              name="q"
+              placeholder="O que deseja encontrar?"
+              class="header__topo__busca__form__input"
+            />
+            <button type="submit" class="header__topo__busca__form__botao">
+              <object data="assets/header/lupa-busca.svg"></object>
+            </button>
+          </form>
+        </div>
+        <a href="login.html" class="header__topo__login-btn">Login</a>
+      </div>
+      <div class="header__vitrine">
+        <div class="header__vitrine__container">
+          <p class="header__vitrine__container__titulo">
+            Solstício Promocional
+          </p>
+          <p class="header__vitrine__container__texto">
+            Produtos selecionados com 66.6% de desconto
+          </p>
+          <a href="#consoles" class="header__vitrine__container__link"
+            >Ver promoções</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="corpo">
+      <section class="corpo__lista">
+        <div class="corpo__lista__topo">
+          <h2 class="corpo__lista__topo__titulo">
+            Poções para todas as utilidades
+          </h2>
+          <a href="todos-produtos.html" class="corpo__lista__topo__link"
+            >Ver tudo <object data="assets/icones/seta.svg"></object
+          ></a>
+        </div>
+        <div class="corpo__lista__conteudo">
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Potions/PotionOfCharm.jpg"
+              alt="Poção rosa"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">Poção do amor</p>
+            <p class="corpo__lista__conteudo__item__preco">$ 60,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Potions/PotionOfcurse.jpg"
+              alt="Poção de maldição"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Poção do morto-vivo
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">R$ 150,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Potions/PotionOfDragon.jpg"
+              alt="Poção dragão"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Poção do fogo de dragão
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">R$ 200,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Potions/PotionOfGold.jpg"
+              alt="Poção de vida"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">Poção de vida</p>
+            <p class="corpo__lista__conteudo__item__preco">R$ 80,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Potions/PotionOfIce.jpg"
+              alt="Poção de Gelo"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">Poção da nevasca</p>
+            <p class="corpo__lista__conteudo__item__preco">R$ 60,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Potions/PotionOfPoison.jpg"
+              alt="poção cerebro"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Poção para morrer
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">R$ 10,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="corpo__lista" id="consoles">
+        <div class="corpo__lista__topo">
+          <h2 class="corpo__lista__topo__titulo">
+            Grimórios de todos os conhecimentos
+          </h2>
+          <a href="todos-produtos.html" class="corpo__lista__topo__link"
+            >Ver tudo <object data="assets/icones/seta.svg"></object
+          ></a>
+        </div>
+        <div class="corpo__lista__conteudo">
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Livros Mágicos/BlueBook.jpg"
+              alt="Grimório do Clérigo"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Grimório do Clérido 5° ed.
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">$ 1160,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Livros Mágicos/Evilbook.jpg"
+              alt="Livro necromante"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Grimório do Necromante 12° ed.
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">$ 600,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Livros Mágicos/Naturebook.jpg"
+              alt="livro do druida"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Grimório do Druída 2° ed.
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">$ 980,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Livros Mágicos/Paladinbook.jpg"
+              alt="livro do paladino"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Grimório do Paladino 1° ed.
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">$ 1000,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Livros Mágicos/SecretBook.jpg"
+              alt="livro secreto"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Grimório Secreto 1° ed.
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">$ 1460,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Livros Mágicos/TimeBook.jpg"
+              alt="Livro do tempo"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Grimório do tempo 1° ed.
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">$ 3360,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="corpo__lista">
+        <div class="corpo__lista__topo">
+          <h2 class="corpo__lista__topo__titulo">
+            Esteja preparado para tudo!
+          </h2>
+          <a href="todos-produtos.html" class="corpo__lista__topo__link"
+            >Ver tudo <object data="assets/icones/seta.svg"></object
+          ></a>
+        </div>
+        <div class="corpo__lista__conteudo">
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Itens/LigthSword.jpg"
+              alt="Espada sagrada"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">Espada Sagrada</p>
+            <p class="corpo__lista__conteudo__item__preco">$ 1500,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Itens/OrbOfOblivium.jpg"
+              alt="Orbe da destruição"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Orbe da Destruição
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">$ 1060,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Livros Mágicos/TreasureBook.jpg"
+              alt="Mapa do tesouro"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">
+              Mapa do tesouro (100% Garantido)
+            </p>
+            <p class="corpo__lista__conteudo__item__preco">$ 10,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Itens/ShieldOfHoawk.jpg"
+              alt="Escudo de aguia"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">Escudo da Aguia</p>
+            <p class="corpo__lista__conteudo__item__preco">$ 500,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Itens/BagInfinity.jpg"
+              alt="Mocjila infinita"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">Mochila Infinita</p>
+            <p class="corpo__lista__conteudo__item__preco">$ 600,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+          <div class="corpo__lista__conteudo__item">
+            <img
+              src="assets/Itens/AncientRune.jpg"
+              alt="Runa Antiga"
+              class="corpo__lista__conteudo__item__imagem"
+            />
+            <p class="corpo__lista__conteudo__item__titulo">Runa Antiga</p>
+            <p class="corpo__lista__conteudo__item__preco">$ 180,00</p>
+            <a href="#" class="corpo__lista__conteudo__item__link"
+              >Ver produto</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="corpo__contato">
+        <div class="corpo__contato__container">
+          <div class="corpo__contato__container__logo">
+            <img src="assets/header/Logo.png" alt="logomarca do site" />
+          </div>
+          <div class="corpo__contato__container__nav">
+            <nav>
+              <ul>
+                <li><a href="#">Quem somos nós</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Programa de fidelidade</a></li>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Quero ser franqueado</a></li>
+                <li><a href="#">Anuncie aqui</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="corpo__contato__container__form">
+            <h1 class="corpo__contato__container__form__titulo">
+              Fale Conosco
+            </h1>
+            <form
+              action=""
+              method="post"
+              class="corpo__contato__container__form"
+            >
+              <label for="nome"
+                >Nome:
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  maxlength="40"
+                  required
+              /></label>
+              <label for="mensagem">
+                <textarea
+                  name="mensagem"
+                  id="mensagem"
+                  class="corpo__contato__container__form__textarea"
+                  placeholder="Escreva sua mensagem"
+                  maxlength="120"
+                  required
+                ></textarea>
+              </label>
+              <button
+                type="submit"
+                class="corpo__contato__container__form__button"
+              >
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- MODAL -->
+    <script type="text/javascript" src="pop-up/js/bioep.min.js"></script>
+    <script type="text/javascript" src="pop-up/js/editar.js"></script>
+    <!-- MODAL -->
+  </body>
+</html>
