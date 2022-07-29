@@ -1,9 +1,10 @@
 
-![Logo of the project](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/app/assets/images/logo.png)
+![Logo of the project](https://github.com/ReginaldoInacio/EcommerceWarlock/blob/main/assets/header/Logo.png)
 
 
-## Ecommerce Warlock.
+## E-commerce Warlock.
 Complete e-commerce creation project as part of Oracle Next Education bootcamp exercises
+<br>
 📗 Enjoy It and I hope you can learn a lot!
 
 
@@ -24,22 +25,20 @@ Here are the technologies used in this project.
 
 ### 1 - When you access, you will see the Home page <3
 
-![Homepage image](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/home.png)
+![Homepage image](https://github.com/ReginaldoInacio/EcommerceWarlock/blob/main/assets/Public/Print%201%20ecommerce.JPG)
 
-### 2 - You can also see a lot of information on the Blog posts session.
+### 2 - You can also see a complet list of products on this section, and search a especific item from list.
 
-![Posts](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/posts.png)
+![Search Products](https://github.com/ReginaldoInacio/EcommerceWarlock/blob/main/assets/Public/Pesquisa%20ecommerce.JPG)
 
-### 3 - Or access some of the posts :D
+### 3 - Also you can Add, Delete and Modify a item with this CRUD feature :D
 
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_1.png)
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_2.png)
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_3.png)
+![CRUD](https://github.com/ReginaldoInacio/EcommerceWarlock/blob/main/assets/Public/Crud%20Ecommerce.JPG)
 
-### 4 - Or you can see my personal Portfolio.
+### 4 - And if you are in the Home and try leave the page this Pop-up will try to talk into with you to stay <3.
 
-![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_1.png)
-![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_2.png)
+![POP UP](https://github.com/ReginaldoInacio/EcommerceWarlock/blob/main/assets/Public/Popup%20ecommerce.JPG)
+
 
 
 ## Features
